@@ -1,0 +1,2 @@
+
+aws ec2 run-instances --image-id ami-01d025118d8e760db  --count 1 --instance-type t2.micro --key-name demokey --security-group-ids sg-099007aaf4425aa8b  --subnet-id subnet-1167824e  --region us-east-1
